@@ -24,3 +24,9 @@ logging:
 springdoc:
   api-docs:
     path: /api-docs
+language: java
+jdk:
+  - open jdk8
+script: ./mvnw clean install
+notifications:
+  email:kashifjawad050@gmail.com
