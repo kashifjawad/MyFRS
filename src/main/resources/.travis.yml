@@ -1,6 +1,8 @@
-language: java
-jdk:
-  - openjdk8
-script: ./mvnw clean install
-notifications:
-  email:kashifjawad050@gmail.com
+ language: java
+
+ jdk:
+  - open jdk8
+ script: ./mvnw clean install
+
+ notifications:
+   email:kashifjawad050@gmail.com
