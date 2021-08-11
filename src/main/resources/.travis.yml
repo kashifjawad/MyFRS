@@ -2,8 +2,8 @@ language: java
 
 jdk:
   - open jdk8
-#script: ./mvnw clean install
-sudo: false
-script: mvn clean verify
+script: ./mvnw clean install
+#sudo: false
+#script: mvn clean verify
 notifications:
    email:kashifjawad050@gmail.com
