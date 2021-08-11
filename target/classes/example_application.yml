@@ -3,8 +3,8 @@ spring:
     name: flightreservation
   datasource:
     url: jdbc:mysql://localhost:3306/flightreservation
-    username: ${your_username}
-    password: ${your_password}
+    username: root
+    password: Itguykashi1!
     driverClassName: com.mysql.cj.jdbc.Driver
     hikari:
       maximumPoolSize: 10
