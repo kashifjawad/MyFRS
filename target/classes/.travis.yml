@@ -3,6 +3,5 @@ jdk:
   - openjdk8
 script:
   - ./mvnw clean install
-
 notifications:
    email:kashifjawad050@gmail.com
